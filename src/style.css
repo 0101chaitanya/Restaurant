@@ -1,0 +1,172 @@
+:root {
+    font-weight: bold;
+    background-color: #f2f2f2;
+}
+
+@media only screen and (max-width: 400px) {
+     :root {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (main-width: 401px) {
+     :root {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+     :root {
+        font-size: 14px;
+    }
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#pageLayout {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    background-color: darkgoldenrod;
+    color: rgb(129, 16, 8);
+    text-decoration: underline;
+    text-decoration-style: double;
+    font-size: 3.2rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+nav {
+    display: block;
+    position: relative;
+    top: -1rem;
+}
+
+nav>ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+    background-color: darkgoldenrod;
+    width: 100%;
+    height: 2rem;
+    align-items: flex-end;
+    border-bottom: 0.5rem solid;
+}
+
+nav>ul>li {
+    height: max-content;
+}
+
+nav>ul>li>label:hover {
+    background-color: rgb(206, 77, 30);
+}
+
+nav>ul>li>input {
+    visibility: hidden;
+    height: max-content;
+}
+
+nav>ul>li>label {
+    background-color: rgb(141, 23, 23);
+    padding: 0.5rem;
+    border-radius: 1rem;
+}
+
+nav>ul>li>input:checked~label {
+    background-color: rgb(81, 108, 160);
+}
+
+#container {
+    display: block;
+}
+
+#div0e {
+    background-color: #f2f2f2;
+    height: 70vmax;
+    margin: auto;
+    width: auto;
+    background-image: url("/dist/85250de8d1f3ce68e54fed32e7e71c0e.png");
+    background-size: 20rem;
+    background-repeat: no-repeat;
+    background-position: top 1rem right 2rem;
+}
+
+#div0e>p {
+    float: left;
+    position: relative;
+    left: 2rem;
+    width: 40%;
+    overflow: none;
+    word-wrap: break-word;
+    font-size: 1.5rem;
+}
+
+@media only screen and (min-width: 760px) {
+    #div0e {
+        background-size: 35rem;
+    }
+}
+
+#author {
+    position: relative;
+    margin: auto;
+    left: 15rem;
+}
+
+#div1e {
+    font-size: 1rem;
+    overflow: auto;
+}
+
+#div1e>ul {
+    display: flex;
+    flex-direction: row;
+    font-size: 1.4rem;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    word-wrap: break-word;
+}
+
+#div1e>ul>li {
+    display: list-item;
+    margin: 0.5rem 1.2rem;
+    width: fit-content;
+    font-size: 1rem;
+}
+
+#div2e {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+iframe {
+    position: relative;
+    display: block;
+    margin: auto;
+    margin-bottom: -1rem;
+}
+
+small {
+    position: relative;
+    display: block;
+    left: 45%;
+}
+
+#connect {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30rem;
+}
